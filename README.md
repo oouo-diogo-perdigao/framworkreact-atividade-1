@@ -1,4 +1,4 @@
-# Exercicio 1
+# Exercício 1
 ## Passo 1
 Utilizando a linha de comando, rode o comando npx create-react-app exercicio-01 pelo terminal
 
