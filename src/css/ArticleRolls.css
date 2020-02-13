@@ -1,0 +1,30 @@
+.articleRolls {
+  width: calc(100% - 200px);
+  float: left;
+  height: calc(100% - 125px);
+  overflow-y: auto;
+}
+
+.articleRolls article {
+  height: 100px;
+  clear: both;
+  margin: 10px;
+}
+
+.articleRolls article img {
+  height: auto;
+  max-height: 100px;
+  float: left;
+  max-width: 200px;
+}
+
+.articleRolls article div {
+  margin-left: 10px;
+  height: calc(100% - 10px);
+  width: calc(100% - 200px);
+  padding: 5px;
+  border: 1px solid black;
+  float: left;
+  overflow-y: auto;
+}
+/*# sourceMappingURL=ArticleRolls.css.map */

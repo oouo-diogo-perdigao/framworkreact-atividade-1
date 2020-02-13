@@ -1,0 +1,25 @@
+@import "_vars.scss";
+
+.menu {
+	height: $menuHeight - 12px; //Remove borda e paddings
+	padding: 5px 0px;
+	margin: 0px;
+	border: 1px solid black;
+	text-align: center;
+
+	ul {
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		clear: both;
+	}
+	ul li {
+		padding: 2px 10px;
+		display: inline-block;
+	}
+	ul li:hover {
+		background-color: #d6d6d6;
+		color: #6d6d6d;
+		border-bottom: 3px solid #ea0000;
+	}
+}

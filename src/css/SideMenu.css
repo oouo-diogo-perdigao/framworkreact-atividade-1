@@ -1,0 +1,8 @@
+.sideMenu {
+  border: 1px solid black;
+  float: right;
+  height: calc(100% - 127px);
+  margin: 0px;
+  width: calc(200px - 2px);
+}
+/*# sourceMappingURL=SideMenu.css.map */

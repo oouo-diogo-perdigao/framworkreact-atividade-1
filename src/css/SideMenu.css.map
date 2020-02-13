@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACT,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,KAAK;EAGZ,MAAM,EAAE,kBAAyC;EACjD,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,iBAAiB;CACxB",
+    "sources": [
+        "../scss/SideMenu.scss",
+        "../scss/_vars.scss"
+    ],
+    "names": [],
+    "file": "SideMenu.css"
+}

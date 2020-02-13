@@ -1,0 +1,29 @@
+@import "_vars.scss";
+
+.articleRolls {
+	width: calc(100% - 200px);
+	// display: inline-block;
+	float: left;
+	height: calc(100% - #{$contentDecreesHeight});
+	overflow-y: auto;
+	article {
+		height: 100px;
+		clear: both;
+		margin: 10px;
+		img {
+			height: auto;
+			max-height: 100px;
+			float: left;
+			max-width: 200px;
+		}
+		div {
+			margin-left: 10px;
+			height: calc(100% - 10px);
+			width: calc(100% - 200px);
+			padding: 5px;
+			border: 1px solid black;
+			float: left;
+			overflow-y: auto;
+		}
+	}
+}

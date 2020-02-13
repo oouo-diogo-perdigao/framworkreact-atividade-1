@@ -1,0 +1,11 @@
+@import "_vars.scss";
+
+.sideMenu {
+	border: 1px solid black;
+	float: right;
+	// display: inline-block;
+	//Soma borda
+	height: calc(100% - #{$contentDecreesHeight+2px});
+	margin: 0px;
+	width: calc(200px - 2px);
+}
